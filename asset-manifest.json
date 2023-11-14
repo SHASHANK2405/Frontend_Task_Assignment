@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Frontend_Task_Assignment/static/css/main.e99ddd29.css",
+    "main.js": "/Frontend_Task_Assignment/static/js/main.3ccac2b6.js",
+    "index.html": "/Frontend_Task_Assignment/index.html",
+    "main.e99ddd29.css.map": "/Frontend_Task_Assignment/static/css/main.e99ddd29.css.map",
+    "main.3ccac2b6.js.map": "/Frontend_Task_Assignment/static/js/main.3ccac2b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e99ddd29.css",
+    "static/js/main.3ccac2b6.js"
+  ]
+}
