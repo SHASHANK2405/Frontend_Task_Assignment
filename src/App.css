@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    background-color: #f7f2f2;
+}
+
+.display {
+    position: relative;
+    width: 120px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 5px;
+    background-color: #f7f2f2;
+}
+
+.display-options {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30px;
+    width: 250px;
+    /* Adjust this value based on your design */
+    left: 0;
+    background-color: #f7f2f2;
+    border: 1px solid #ddd;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.option-a,
+.option-b {
+    display: flex;
+    margin-left: 1rem;
+    padding: 10px;
+    width: 150px;
+    gap: 30px;
+}
+
+.hero-section {
+    background-color: rgb(232, 229, 229);
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+@media screen and (max-width: 900px) {
+    .display-options {
+        width: 180px;
+        /* Adjust the width for smaller screens */
+    }
+
+    .option-a,
+    .option-b {
+        width: 100%;
+        /* Make options full width for smaller screens */
+        margin-left: 0;
+        gap: 10px;
+        /* Adjust the gap for smaller screens */
+    }
+    .hero-section{
+        flex-direction: column;
+    }
+}

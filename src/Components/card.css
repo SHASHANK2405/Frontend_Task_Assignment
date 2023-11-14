@@ -1,0 +1,53 @@
+.ticket-card {
+    background-color: #f7f2f2;
+    /* Light gray background */
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    /* Light box shadow */
+    align-items: center;
+    /* Text styles */
+    font-family: 'Arial', sans-serif;
+}
+
+.ticket-card h3 {
+    font-size: 1.25rem;
+    /* Larger font size for h3 */
+    color: rgb(124, 115, 115);
+    font-weight: 100;
+    /* Light black color */
+    margin-bottom: 8px;
+    /* Add some space below h3 */
+}
+
+.ticket-card p {
+    font-size:0.90rem;
+    /* Regular font size for p */
+    color: #000;
+    /* Black color */
+    margin: 0;
+    margin-bottom: 8px;
+    /* Remove default margin for p */
+}
+
+.ticket-card p:nth-child(3) {
+    font-size: 0.50rem;
+    /* Slightly smaller font size for the third p */
+    color: #555;
+    padding-left: 20px;
+    /* Lighter black color for the third p */
+}
+.ticket-card input[type="checkbox"] {
+    margin-right: 8px;
+    /* Add space between radio button and h3 */
+    border-radius: 100%;
+    /* Make the radio button round */
+    cursor: pointer;
+    /* Change cursor on hover */
+}
+.checky{
+    display: flex;
+    flex-direction: row;
+}

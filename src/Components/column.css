@@ -1,0 +1,6 @@
+.ticket-column{
+    display: flex;
+    flex-direction: column;
+    border: 1 px solid black;
+    box-shadow: inset;
+}
